@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`a5f9603`](https://github.com/stdlib-js/stdlib/commit/a5f9603c3646bde6c07b2d4b64f1c853bb42613d) - **docs:** fix example in `stats/base/smax` [(#4264)](https://github.com/stdlib-js/stdlib/pull/4264) _(by Aayush Khanna)_
 -   [`de70ec9`](https://github.com/stdlib-js/stdlib/commit/de70ec98ccdecbfe33566df3cdb6802c29e668b1) - **feat:** add C ndarray interface and refactor implementation for `stats/base/smax` [(#4240)](https://github.com/stdlib-js/stdlib/pull/4240) _(by Aayush Khanna)_
 -   [`62364f6`](https://github.com/stdlib-js/stdlib/commit/62364f62ea823a3b52c2ad25660ecd80c71f8f36) - **style:** fix C comment alignment _(by Philipp Burckhardt)_
 -   [`9e689ff`](https://github.com/stdlib-js/stdlib/commit/9e689ffcb7c6223afc521f1e574b42f10921cf5e) - **chore:** fix indentation in manifest.json files _(by Philipp Burckhardt)_
