@@ -1,9 +1,9 @@
-"use strict";var s=function(u,r){return function(){return r||u((r={exports:{}}).exports,r),r.exports}};var q=s(function(z,o){
-var l=require('@stdlib/math-base-assert-is-nanf/dist'),P=require('@stdlib/math-base-assert-is-positive-zerof/dist');function R(u,r,n){var v,i,e,a;if(u<=0)return NaN;if(u===1||n===0)return r[0];for(n<0?i=(1-u)*n:i=0,v=r[i],a=1;a<u;a++){if(i+=n,e=r[i],l(e))return e;(e>v||e===v&&P(e))&&(v=e)}return v}o.exports=R
-});var x=s(function(A,m){
-var Z=require('@stdlib/math-base-assert-is-nanf/dist'),_=require('@stdlib/math-base-assert-is-positive-zerof/dist');function E(u,r,n,v){var i,e,a,t;if(u<=0)return NaN;if(u===1||n===0)return r[v];for(e=v,i=r[e],t=1;t<u;t++){if(e+=n,a=r[e],Z(a))return a;(a>i||a===i&&_(a))&&(i=a)}return i}m.exports=E
-});var y=s(function(B,p){
-var O=require('@stdlib/utils-define-nonenumerable-read-only-property/dist'),c=q(),b=x();O(c,"ndarray",b);p.exports=c
-});var d=require("path").join,g=require('@stdlib/utils-try-require/dist'),h=require('@stdlib/assert-is-error/dist'),k=y(),f,j=g(d(__dirname,"./native.js"));h(j)?f=k:f=j;module.exports=f;
+"use strict";var n=function(e,r){return function(){return r||e((r={exports:{}}).exports,r),r.exports}};var v=n(function(z,f){
+var j=require('@stdlib/math-base-assert-is-nanf/dist'),l=require('@stdlib/math-base-assert-is-positive-zerof/dist');function R(e,r,i,q){var t,u,a,s;if(e<=0)return NaN;if(e===1||i===0)return r[q];for(u=q,t=r[u],s=1;s<e;s++){if(u+=i,a=r[u],j(a))return a;(a>t||a===t&&l(a))&&(t=a)}return t}f.exports=R
+});var x=n(function(A,m){
+var _=require('@stdlib/strided-base-stride2offset/dist'),E=v();function O(e,r,i){return E(e,r,i,_(e,i))}m.exports=O
+});var y=n(function(B,p){
+var P=require('@stdlib/utils-define-nonenumerable-read-only-property/dist'),c=x(),Z=v();P(c,"ndarray",Z);p.exports=c
+});var b=require("path").join,g=require('@stdlib/utils-try-require/dist'),h=require('@stdlib/assert-is-error/dist'),k=y(),o,d=g(b(__dirname,"./native.js"));h(d)?o=k:o=d;module.exports=o;
 /** @license Apache-2.0 */
 //# sourceMappingURL=index.js.map
